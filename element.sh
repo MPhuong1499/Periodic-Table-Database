@@ -31,4 +31,4 @@ if [[ -z "$RESULT" ]]; then
 fi
 
 # Output the atomic_number
-echo "The element with atomic number $RESULT is $NAME ($SYMBOL). It's a $TYPE, with a mass of $MASS amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."  # xargs trims whitespace
+echo "The element with atomic number $RESULT is $NAME ($SYMBOL). It's a $TYPE, with a mass of $MASS amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius." 
