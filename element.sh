@@ -3,7 +3,7 @@
 # Check if an argument is provided
 if [[ -z "$1" ]]; then
     echo "Please provide an element as an argument."
-    exit 1
+    exit 0
 fi
 
 # Store the input argument
@@ -26,7 +26,7 @@ fi
 # Check if the result is empty
 if [[ -z "$RESULT" ]]; then
     echo "I could not find that element in the database."
-    exit 1
+    exit 0
 fi
 
 # Output the atomic_number
